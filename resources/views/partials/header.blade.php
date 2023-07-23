@@ -1,0 +1,18 @@
+<header>
+    <nav>
+        <ul>
+            <li>                
+                ciao
+            </li>
+            <li>                
+                come
+            </li>
+            <li>                
+                stai
+            </li>
+            <li>                
+                oggi
+            </li>
+        </ul>
+    </nav>
+</header>
