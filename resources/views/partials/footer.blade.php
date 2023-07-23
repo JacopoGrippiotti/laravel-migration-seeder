@@ -1,0 +1,10 @@
+<footer>
+    <nav>
+        <ul>
+            <li>io</li>
+            <li>sto</li>
+            <li>bene</li>
+            <li>grazie</li>
+        </ul>
+    </nav>
+</footer>
