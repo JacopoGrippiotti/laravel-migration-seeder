@@ -17,7 +17,13 @@ return new class extends Migration
             $table->id();
             $table->string('company', 70);
             $table->string('departure_station', 70);
-            $table->string('arrival_station', 70);
+            $table->dateTime('departure_time');
+            $table->dateTime('arrival_time');
+            $table->unsignedMediumInteger('train_code');
+            $table->unsignedTinyInteger('number_of_carriages');
+            $table->boolean('on_time');
+            $table->boolean('cancelled');
+            $table->timestamps();
         });
     }
 
